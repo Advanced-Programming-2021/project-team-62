@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="10.3" multi-file="no">
+  <meta>
+    <name>uh-gi-oh-Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="package" type="UmlPackage" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type stereotype="enumeration" type-id="enumeration" type="UmlEnumeration" />
+        <value>5</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="UmlPackage" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="containment" type="UmlContainment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="UmlGeneralization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="UmlDependency" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="enumeration" type="UmlEnumeration" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>17</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>57</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>69</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
+        <value>51</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="Ped33cbb254824b3c914ca86295b0885b">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Class:di879158509432575405" tid="" name="MonsterCategory" description="" nullable="false" class-ref="di879158509432575405" />
+      <type id="Enum" tid="" name="Enum" description="" nullable="false" />
+      <type id="Class:di465377135629182080" tid="" name="Attribute" description="" nullable="false" class-ref="di465377135629182080" />
+      <type id="&lt;&lt;constructor&gt;&gt;" tid="" name="&lt;&lt;constructor&gt;&gt;" description="" nullable="false" />
+      <type id="Class:di162347247687043002" tid="" name="WarPosition" description="" nullable="false" class-ref="di162347247687043002" />
+      <type id="Class:di305649417975031529" tid="" name="WithoutActionMonster" description="" nullable="false" class-ref="di305649417975031529" />
+      <type id="void" tid="" name="void" description="" nullable="false" />
+      <type id="Class:di690996540702551041" tid="" name="Icon" description="" nullable="false" class-ref="di690996540702551041" />
+    </custom-types>
+  </types>
+  <filters />
+  <macros />
+  <items />
+  <models>
+    <model id="pca63a91b08be470dbe9e1b82bfd06dc8_229783410" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/13/2021 18:49:47</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="peb7ea3cccefd4325bf1a6dc19bf069cf_683326237" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-51,101" zoom="0.4321839">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/13/2021 18:49:47</creation-date>
+          <change-date>04/14/2021 21:18:23</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di660868823390701852" cid="PKG001" type="package" name="Model" style-class="" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 18:49:52">
+            <style class="default" />
+          </item>
+          <item id="di309552542530155027" cid="PKG004" type="package" name="Controller" style-class="" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 18:51:09">
+            <style class="default" />
+          </item>
+          <item id="di296538154323321975" cid="PKG003" type="package" name="View" style-class="" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 18:50:51">
+            <style class="default" />
+          </item>
+          <item id="di143988441691838737" cid="C003" type="class" name="Monster" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creation-date="04/13/2021 19:01:42">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;BI" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFFFFFFF" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="ad4776e296e134dd5a5d52801faa5c1e8486" cid="ELEM001" name="name" type="String" type-id="Uml.String" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="a46d28dc10c7740eaae5ec5ff998fae3c215" cid="ELEM002" name="type" type="String" type-id="Uml.String" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="aa6476efdfabc4b5e970787950c69e1e0751" cid="ELEM003" name="description" type="String" type-id="Uml.String" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="ac28b21f167ae414f925443a40abea5d2118" cid="ELEM004" name="level" type="Integer" type-id="Uml.Integer" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="a97651680ec20464fa61a9660af72c963935" cid="ELEM005" name="attribute" type="Attribute" type-id="Class:di465377135629182080" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="a24e51d4361c24b7383f6dc915a75a63e911" cid="ELEM006" name="attack" type="Integer" type-id="Uml.Integer" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae016b565b30f4f489d55b71b4ada88f7755" cid="ELEM007" name="deffence" type="Integer" type-id="Uml.Integer" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae9beecb0f69b44b999a15797b7fd9442776" cid="ELEM009" name="warPosition" type="WarPosition" type-id="Class:di162347247687043002" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="a795587b62c754dcb9e8570e6e4f09ca1668" cid="ELEM011" name="cardId" type="String" type-id="Uml.String" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae24e296c44a44f83a08b97a4b2c1b214984" cid="ELEM025" name="monsterCategory" type="MonsterCategory" type-id="Class:di879158509432575405" visibility="protected">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o1162afa395a44320bba96150584ca707218" cid="ELEM012" name="Monster" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="protected">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p03d4319d995a44daa9c0e02d61ca1a7c" name="name" type="String" type-id="Uml.String" />
+                  <parameter id="pa63b7e578f494be985a744a854f31f35" name="type" type="String" type-id="Uml.String" />
+                  <parameter id="p8f65c48c409e423eade6f4950b01ade5" name="description" type="String" type-id="Uml.String" />
+                  <parameter id="pdc4b45c0be394970979b8090fe6ec8ca" name="level" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p8daa0127f35142ad926f796155f0e79a" name="attribute" type="Attribute" type-id="Class:di465377135629182080" />
+                  <parameter id="pc28db35afacc4ffbbafdf32325de82a3" name="attack" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="pabb345eb4f334dd087f3cff6a8090752" name="deffence" type="Integer" type-id="Uml.Integer" />
+                  <parameter id="p37c0ac4cb1ab40cfb63be0b5bb5b0aa7" name="cardId" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o371acf4661054ba6a64535fe2baef334620" cid="ELEM013" name="setName" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pc73ad5a3e35946ec9d01dab38688e101" name="name" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="oe2477300e7374f9192c2e4d4e3bcc953458" cid="ELEM014" name="getName" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o92dc7604f9e34b49b1e3293e2a2d59f2841" cid="ELEM015" name="setDescriotion" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p530e1baad3324a1f8494635b837279b1" name="description" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="ofe1a9c567a9149a28f524b810b13717c111" cid="ELEM016" name="getDescription" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o15773e8ed52e4ab3842cd52b01988bf7471" cid="ELEM017" name="setAttribute" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pbbdad8ea610c4ea4a7962d91e687d066" name="attribute" type="Attribute" type-id="Class:di465377135629182080" />
+                </parameters>
+              </operation>
+              <operation id="o6c27d7ca48424bee881494f512a960bf358" cid="ELEM018" name="getAttribute" type="Attribute" type-id="Class:di465377135629182080" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o1d412e7f201c4ba79d6b1fc333152cae185" cid="ELEM019" name="setAttack" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p0b19d0d90bdf48d4ac1130bee3ea1114" name="attack" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="oa5d10193de574f388d35feb2bb9b7af9731" cid="ELEM020" name="getAttack" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o50bd9fe1e4d047408548dd26d7203bfc389" cid="ELEM021" name="setDeffence" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pc7f972b30bdf4167b1034a823759478f" name="deffence" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o8d49146ec33e4d22ae996037610d0fff906" cid="ELEM022" name="getDeffence" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="ofbd9cd3c933c438dbd13ab3135a1baca9" cid="ELEM023" name="setWarPosition" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p54dd077d8e8a4592bf2d444684e8f482" name="warPosition" type="WarPosition" type-id="Class:di162347247687043002" />
+                </parameters>
+              </operation>
+              <operation id="o201f0614005748d58e3ac30e87888bae758" cid="ELEM024" name="getWarPosition" type="WarPosition" type-id="Class:di162347247687043002" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o9117333bbbc84f40bf8e20ab6e1d034d263" cid="ELEM026" name="setType" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pfc5a537154824624bd5913dda4310380" name="type" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="oe9f8bf9863994cce9c0e0067ce0bd8e9781" cid="ELEM027" name="getType" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o77387f80ebf84f74a15484f92c9871f0873" cid="ELEM028" name="setMonsterCategory" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p08dd1ba65d8e40c4b3d0572453135075" name="monsterCategory" type="MonsterCategory" type-id="Class:di879158509432575405" />
+                </parameters>
+              </operation>
+              <operation id="ob97b086ea5644336a561d0769b179b3d955" cid="ELEM029" name="getMonsterCategory" type="MonsterCategory" type-id="Class:di879158509432575405" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di287578495294601032" cid="C004" type="class" name="WithActionMonster" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:02:08">
+            <style class="default" />
+          </item>
+          <item id="di305649417975031529" cid="C005" type="class" name="WithoutActionMonster" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:02:36">
+            <style class="default" />
+          </item>
+          <item id="di742672930698945631" cid="PKG005" type="package" name="Cards" style-class="" owner="di660868823390701852" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:08:04">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di928604899123002734" cid="C009" type="class" name="GameBoard" style-class="" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:11:12">
+            <style class="default" />
+          </item>
+          <item id="di110257403708257899" cid="C006" type="class" name="Magic" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:06:21">
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;BI" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" color="#FFFFFFFF" color2="#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes>
+              <attribute id="a75232bf8b7ad454386c7332e5ed2817a209" cid="ELEM051" name="name" type="String" type-id="Uml.String" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="ad1a67cb197964b6b9d9f42dac8f06a7c310" cid="ELEM052" name="type" type="String" type-id="Uml.String" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="a921a701257e84539bae9eed8c5aad39b429" cid="ELEM053" name="icon" type="Icon" type-id="Class:di690996540702551041" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="ae3cdb9e72b3b48bf853a0500ad6e30ae761" cid="ELEM054" name="description" type="String" type-id="Uml.String" visibility="protected">
+                <style class="default" />
+              </attribute>
+              <attribute id="a370237623c224608ab1c3f67e03174b9283" cid="ELEM055" name="cardNumber" type="Integer" type-id="Uml.Integer" visibility="protected">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o857bb71d31b240dfa9995c4fda7b4a8b182" cid="ELEM068" name="Magic" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="protected">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p1378ec307e3d4d0dab6ec8d24277b33a" name="name" type="String" type-id="Uml.String" />
+                  <parameter id="p452804e5cba841818bde62fc9541fddf" name="type" type="String" type-id="Uml.String" />
+                  <parameter id="p398e79e29850456b8cf99a5632b1b8b3" name="icon" type="Icon" type-id="Class:di690996540702551041" />
+                  <parameter id="pa22f23c28ebb4efead45607187cde456" name="description" type="String" type-id="Uml.String" />
+                  <parameter id="p3295601ba27246c6a7cba0a906c07763" name="cardNumber" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="o1d1ad850aa42447d8a8b98da561b2b59515" cid="ELEM057" name="setName" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p56017beb4b224791a14119c77e04b950" name="name" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="o14af822dc8754d9b96961225f8eb8f67567" cid="ELEM058" name="getName" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o2c67bda10f3246a3ba59af82de83cbce113" cid="ELEM059" name="setType" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p89f77f8815bd4a8493e87fb68ddaaccd" name="type" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="od2e7489d411d4b1d84b4d40c6a79b324745" cid="ELEM060" name="getType" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="off61513511d648d4812e7f691a929793919" cid="ELEM061" name="setIcon" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8bd95244447645e6a0b7865747b9d928" name="icon" type="Icon" type-id="Class:di690996540702551041" />
+                </parameters>
+              </operation>
+              <operation id="o6ea08897bca548b982515fc449b126f9810" cid="ELEM062" name="getIcon" type="Icon" type-id="Class:di690996540702551041" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o74094e7f3470415ebff3655db9835942565" cid="ELEM063" name="setDescription" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p75c2ae9c17204cbbb64f2c36f75e5e2e" name="description" type="String" type-id="Uml.String" />
+                </parameters>
+              </operation>
+              <operation id="ocf7b4bfef75f4fbfaab612feca6e5f12230" cid="ELEM064" name="getDescription" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o168dd1d34acf47ba98a9e5a853f0d8364" cid="ELEM065" name="setCardNumber" type="void" type-id="void" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8238ea6a308f45a5b15a0d5676189e41" name="cardNumber" type="Integer" type-id="Uml.Integer" />
+                </parameters>
+              </operation>
+              <operation id="oea0b3a74926145aebbc44550e8c84e9b478" cid="ELEM066" name="getCardNumber" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di666882724268734645" cid="C007" type="class" name="Spell" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:06:29">
+            <style class="default" />
+          </item>
+          <item id="di467724075611593850" cid="C008" type="class" name="Trap" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:06:37">
+            <style class="default" />
+          </item>
+          <item id="di693270977999568292" cid="C010" type="class" name="Player" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:11:27">
+            <style class="default" />
+          </item>
+          <item id="di879158509432575405" cid="E001" type="enumeration" name="MonsterCategory" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:42:28">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <style class="default" />
+            <enumeration-items>
+              <enumeration-item id="a2d26ccbd79434aa2b90a17f8d285759d318" cid="ELEM008" name="NORMAL">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a0ebc49ffb4204ccaac231c871b708999242" cid="ELEM033" name="EFECTIVE">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a60258c3bbd0d4fb8a8064a52bc933c0d938" cid="ELEM034" name="RITUAL">
+                <style class="default" />
+              </enumeration-item>
+            </enumeration-items>
+          </item>
+          <item id="di465377135629182080" cid="E002" type="enumeration" name="Attribute" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:42:59">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <style class="default" />
+            <enumeration-items>
+              <enumeration-item id="aff1e8f6f2333496e8a06bc7012baeb7a160" cid="ELEM035" name="DARK">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a6af94090e252431f9b45b3c594a4275a575" cid="ELEM036" name="EARTH">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="aa39fe3fb6761473290e24b517ba27b4c685" cid="ELEM037" name="WATER">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a580931a49b224a2980614cb21116d6fb957" cid="ELEM038" name="FIRE">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a4614470555de42dfb78cad59bdb859c9574" cid="ELEM039" name="WIND">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a7c0003d83e4648a9bdcd3f3dbeeac10b202" cid="ELEM040" name="LIGHT">
+                <style class="default" />
+              </enumeration-item>
+            </enumeration-items>
+          </item>
+          <item id="di162347247687043002" cid="E003" type="enumeration" name="WarPosition" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:43:20">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <style class="default" />
+            <enumeration-items>
+              <enumeration-item id="a58bf8ad67bbc43aabe614b484188ad71862" cid="ELEM030" name="ATTACK">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a417a6bd155f14dc59808344feb6d1c6b617" cid="ELEM031" name="FACEDOWNDEFFENCE">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a3d4db84cefd943f8aaca75cd519b277f73" cid="ELEM032" name="FACEUPDEFFENCE">
+                <style class="default" />
+              </enumeration-item>
+            </enumeration-items>
+          </item>
+          <item id="di379618398782868584" cid="E004" type="enumeration" name="Effect" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creation-date="04/14/2021 17:02:35">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <style class="default" />
+            <enumeration-items>
+              <enumeration-item id="a781df855de524b319fe69e35b1e9f779573" cid="ELEM041" name="CONTNUOES">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a3bb54fb9ff6b4a16b29aabcb4ddb7d89286" cid="ELEM047" name="SPARK">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a0098fe9c5f8c4b0fa76238b03bb95cc7262" cid="ELEM048" name="FAST">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a39eaca0dc4aa4068bff78aa3344829fa653" cid="ELEM049" name="TRIGGER">
+                <style class="default" />
+              </enumeration-item>
+              <enumeration-item id="a2975d4cff5b3434598d2c8616d73622a985" cid="ELEM050" name="FLIP">
+                <style class="default" />
+              </enumeration-item>
+            </enumeration-items>
+          </item>
+          <item id="di690996540702551041" cid="E005" type="enumeration" name="Icon" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creation-date="04/14/2021 21:18:22">
+            <stereotypes>
+              <stereotype name="enumeration" />
+            </stereotypes>
+            <style class="default" />
+            <enumeration-items />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di296538154323321975" iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/13/2021 18:50:51" order-index="1" type="entity">
+            <layout ax="32.5" ay="-481" awidth="1136" aheight="620" x="32.5" y="-481" width="1136" height="620" />
+          </item>
+          <item id="di309552542530155027" iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/13/2021 18:51:09" order-index="2" type="entity">
+            <layout ax="129" ay="1467.5" awidth="1136" aheight="453.5" x="129" y="1467.5" width="1136" height="453.5" />
+          </item>
+          <item id="di660868823390701852" iid="b508a7c6d6844bc8805126d083d3ac4a" creation-date="04/13/2021 18:49:52" order-index="0" type="entity">
+            <layout ax="9" ay="269" awidth="1616" aheight="1147" x="9" y="269" width="1616" height="1147" />
+          </item>
+          <item id="di742672930698945631" iid="035f8db31df744649849c64c49ec45d6" container="di660868823390701852" container-iid="b508a7c6d6844bc8805126d083d3ac4a" creation-date="04/13/2021 19:08:04" order-index="11" type="entity">
+            <layout ax="41" ay="329" awidth="1564" aheight="1042" x="41" y="329" width="1564" height="1042" />
+          </item>
+          <item id="di143988441691838737" iid="150a4650d015420fb48800e91c930a23" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:01:42" order-index="3" type="entity">
+            <layout ax="52" ay="381" awidth="532" aheight="565" x="52" y="381" width="532" height="565" />
+            <class />
+          </item>
+          <item id="di287578495294601032" iid="09d3b23f06084c598eaa02217128cd33" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:02:08" order-index="4" type="entity">
+            <layout ax="419" ay="1005" awidth="238" aheight="160" x="419" y="1005" width="238" height="160" />
+            <class />
+          </item>
+          <item id="di110257403708257899" iid="f4b386ab5ba94a3abb3a5ecc5000e358" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:06:21" order-index="8" type="entity">
+            <layout ax="625.5" ay="393.5" awidth="448.5" aheight="334" x="625.5" y="393.5" width="448.5" height="334" />
+            <class />
+          </item>
+          <item id="di305649417975031529" iid="2217f3616fc54dc6abcdf59ce47219db" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:02:36" order-index="5" type="entity">
+            <layout ax="66" ay="1005" awidth="238" aheight="160" x="66" y="1005" width="238" height="160" />
+            <class />
+          </item>
+          <item id="di666882724268734645" iid="39c0b90128f04d87aaded7bcc7be9460" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:06:29" order-index="9" type="entity">
+            <layout ax="1115" ay="1079" awidth="140" aheight="160" x="1115" y="1079" width="140" height="160" />
+            <class />
+          </item>
+          <item id="di467724075611593850" iid="d20877dae1374753a646d662bd2f9f27" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:06:37" order-index="10" type="entity">
+            <layout ax="1306" ay="1079" awidth="140" aheight="160" x="1306" y="1079" width="140" height="160" />
+            <class />
+          </item>
+          <item id="di928604899123002734" iid="1372376e63294327ad632a194453bd24" container="di660868823390701852" container-iid="b508a7c6d6844bc8805126d083d3ac4a" creation-date="04/13/2021 19:11:12" order-index="12" type="entity">
+            <layout ax="42.5" ay="1284" awidth="313" aheight="75" x="42.5" y="1284" width="313" height="75" />
+            <class />
+          </item>
+          <item id="di693270977999568292" iid="20fc1bc718054fd88b5fe584e1187a38" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:11:27" order-index="13" type="entity">
+            <layout ax="749.5" ay="1272" awidth="393" aheight="99" x="749.5" y="1272" width="393" height="99" />
+            <class />
+          </item>
+          <item id="di879158509432575405" iid="bdbe8ebcde1d4a8fa1114491c7e7ddb7" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:42:28" order-index="14" type="entity">
+            <layout ax="921.5" ay="1091.5" awidth="140" aheight="160" x="921.5" y="1091.5" width="140" height="160" />
+            <enumeration />
+          </item>
+          <item id="di465377135629182080" iid="585ebc97d7c84a30b1d5124053af6321" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:42:59" order-index="15" type="entity">
+            <layout ax="737" ay="1091.5" awidth="160" aheight="160" x="737" y="1091.5" width="160" height="160" />
+            <enumeration />
+          </item>
+          <item id="di162347247687043002" iid="473a5200c5424b86a5d9a4d1f256e49b" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:43:20" order-index="16" type="entity">
+            <layout ax="923" ay="919" awidth="151" aheight="160" x="923" y="919" width="151" height="160" />
+            <enumeration />
+          </item>
+          <item id="di379618398782868584" iid="63d23101b0f747cb92fbc3443133cdad" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/14/2021 17:02:35" order-index="17" type="entity">
+            <layout ax="737" ay="923.75" awidth="160" aheight="150.5" x="737" y="923.75" width="160" height="150.5" />
+            <enumeration />
+          </item>
+          <item id="di690996540702551041" iid="d1395bb10ea743c4ac8c0c89e5191fed" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/14/2021 21:18:22" order-index="18" type="entity">
+            <layout ax="468" ay="1183" awidth="140" aheight="160" x="468" y="1183" width="140" height="160" />
+            <enumeration />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
