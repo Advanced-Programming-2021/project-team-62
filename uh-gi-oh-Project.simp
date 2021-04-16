@@ -13,7 +13,7 @@
       </counter>
       <counter>
         <item-type type-id="class" type="UmlClass" />
-        <value>10</value>
+        <value>24</value>
       </counter>
       <counter>
         <item-type stereotype="enumeration" type-id="enumeration" type="UmlEnumeration" />
@@ -31,11 +31,11 @@
       </counter>
       <counter>
         <item-type type-id="class" type="UmlClass" />
-        <value>11</value>
+        <value>25</value>
       </counter>
       <counter>
         <item-type type-id="generalization" type="UmlGeneralization" />
-        <value>5</value>
+        <value>14</value>
       </counter>
       <counter>
         <item-type type-id="dependency" type="UmlDependency" />
@@ -47,7 +47,7 @@
       </counter>
       <counter>
         <item-type type-id="" type="AbstractElementGroup" />
-        <value>17</value>
+        <value>84</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -59,11 +59,11 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
-        <value>57</value>
+        <value>68</value>
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
-        <value>69</value>
+        <value>135</value>
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.EnumerationItemField</type>
@@ -103,11 +103,85 @@
       <type id="Class:di305649417975031529" tid="" name="WithoutActionMonster" description="" nullable="false" class-ref="di305649417975031529" />
       <type id="void" tid="" name="void" description="" nullable="false" />
       <type id="Class:di690996540702551041" tid="" name="Icon" description="" nullable="false" class-ref="di690996540702551041" />
+      <type id="Matcher" tid="" name="Matcher" description="" nullable="false" />
+      <type id="bolean" tid="" name="bolean" description="" nullable="false" />
+      <type id="Class:di693270977999568292" tid="" name="Player" description="" nullable="false" class-ref="di693270977999568292" />
+      <type id="viod" tid="" name="viod" description="" nullable="false" />
     </custom-types>
   </types>
   <filters />
   <macros />
-  <items />
+  <items>
+    <item id="di179946581453706152" cid="C014" type="class" name="LoginMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:20:15">
+      <style class="default" />
+      <operations>
+        <operation id="ocd2e2a4a845b4d7dad28ab0fec511de9568" cid="ELEM070" name="run" type="void" type-id="void" visibility="public">
+          <style class="default" />
+        </operation>
+        <operation id="o567c7d63484642ff9a1fab35ad644177758" cid="ELEM069" name="register" type="bolean" type-id="bolean" visibility="private">
+          <style class="default" />
+          <parameters>
+            <parameter id="p731ff36327b94ec997054a009b5a8a57" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+        <operation id="o567285f8563c410a8ae6271c1ca24318440" cid="ELEM071" name="login" type="bolean" type-id="bolean" visibility="private">
+          <style class="default" />
+          <parameters>
+            <parameter id="p1a7d961812b3476db844d8e9ed503412" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+      </operations>
+    </item>
+    <item id="di262976614163826235" cid="C021" type="class" name="ImportExportMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:30:53">
+      <style class="default" />
+      <operations>
+        <operation id="o3a7722b7986e4354b7e693b039590509360" cid="ELEM126" name="run" type="" type-id="" visibility="public">
+          <style class="default" />
+        </operation>
+        <operation id="o0e25e1efa06a43928de5cc5582f9209c719" cid="ELEM127" name="importCard" type="bolean" type-id="bolean" visibility="private">
+          <style class="default" />
+          <parameters>
+            <parameter id="p32e66a0f91974ee197127809a478c90c" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+        <operation id="o87c035e769f44cd688f8ca27b1119982303" cid="ELEM128" name="exportCard" type="bolean" type-id="bolean" visibility="private">
+          <style class="default" />
+          <parameters>
+            <parameter id="p88a5af2b292642ce8cb7ffbb996c1262" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+      </operations>
+    </item>
+    <item id="di827752758166456416" cid="C021" type="class" name="ImportExportMenuView" style-class="" owner="di309552542530155027" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:30:53">
+      <style class="default" />
+      <operations>
+        <operation id="o0e25e1efa06a43928de5cc5582f9209c719" cid="ELEM127" name="importCard" type="bolean" type-id="bolean" visibility="public">
+          <style class="default" />
+          <parameters>
+            <parameter id="p32e66a0f91974ee197127809a478c90c" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+        <operation id="o87c035e769f44cd688f8ca27b1119982303" cid="ELEM128" name="exportCard" type="bolean" type-id="bolean" visibility="public">
+          <style class="default" />
+          <parameters>
+            <parameter id="p88a5af2b292642ce8cb7ffbb996c1262" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+        <operation id="o149c5b3b0108456989ae0fe0e50039ae94" cid="ELEM129" name="importCardErrorCheck" type="bolean" type-id="bolean" visibility="private">
+          <style class="default" />
+          <parameters>
+            <parameter id="p07f4fda38f4747f9a8477469d2747943" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+        <operation id="o6360402ef9fa4940beadd52394886440844" cid="ELEM130" name="exportCardErrorCheck" type="bolean" type-id="bolean" visibility="private">
+          <style class="default" />
+          <parameters>
+            <parameter id="p0d3ef248c7074e34abef977944cfc62e" name="matcher" type="Matcher" type-id="Matcher" />
+          </parameters>
+        </operation>
+      </operations>
+    </item>
+  </items>
   <models>
     <model id="pca63a91b08be470dbe9e1b82bfd06dc8_229783410" name="Model 1" namespace="" order-index="1">
       <meta>
@@ -122,7 +196,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-class" id="peb7ea3cccefd4325bf1a6dc19bf069cf_683326237" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-51,101" zoom="0.4321839">
+      <diagram type="uml-class" id="peb7ea3cccefd4325bf1a6dc19bf069cf_683326237" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-38,-264" zoom="0.5">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -134,7 +208,7 @@
           </authors>
           <description />
           <creation-date>04/13/2021 18:49:47</creation-date>
-          <change-date>04/14/2021 21:18:23</change-date>
+          <change-date>04/17/2021 00:02:49</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -328,7 +402,7 @@
             <style class="default" />
           </item>
           <item id="di110257403708257899" cid="C006" type="class" name="Magic" style-class="" owner="di742672930698945631" visibility="package" change-tracking-state="added" creator="Ped33cbb254824b3c914ca86295b0885b" creation-date="04/13/2021 19:06:21">
-            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
               <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;BI" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
               <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
@@ -524,71 +598,762 @@
             <style class="default" />
             <enumeration-items />
           </item>
+          <item id="di951537852165390935" cid="C011" type="class" name="MainMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:17:26">
+            <style class="default" />
+            <attributes>
+              <attribute id="a914892103c234b8694d6b4f4aa9dba64829" cid="ELEM067" name="player" type="Player" type-id="Class:di693270977999568292" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o0bf23cff08e54c14bb4add99f02af01274" cid="ELEM077" name="MainMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p2370dfaae069460fa959d64856280541" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="o6370b7f5267d46cdab8caaa7eb2105dd515" cid="ELEM073" name="run" type="void" type-id="void" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="ofc57258fc6da4808ab83616ec6871205791" cid="ELEM074" name="logout" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p4584baadabeb43c5a8540cc0231f6a1d" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o76447f4b3e9a4224b6500ee8b32edb2f795" cid="ELEM075" name="enterMenu" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pe13e5c701c2d4b09a254b638c7ec9e67" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="od8266fa27e8a494b8d03d5f3baa3cf0d102" cid="ELEM076" name="exitMenu" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pfbc980f68a214588b9969f4aebf1b0cb" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="obd375d1a70694b03a1d5e7e8b662d08f304" cid="ELEM079" name="getPlayer" type="Player" type-id="Class:di693270977999568292" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di872862577787753824" cid="C012" type="class" name="ShopMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:17:42">
+            <style class="default" />
+            <operations>
+              <operation id="o7451b419a1094c618fa699c073850cf8393" cid="ELEM094" name="ShopMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o4a3c854ecdec46d5bbd3cb16f9e51f6e619" cid="ELEM101" name="run" type="void" type-id="void" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="oe848195b39234ea5a4af84abd76f7a63400" cid="ELEM095" name="buyCard" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa733d5c10dde4aaaa7a4f1289067899e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o685db678f88e4f03b32d6188d8042541792" cid="ELEM096" name="showShopCards" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd37bb8f1370b4e9d9a4e3534da65e54a" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di142824740195623320" cid="C020" type="class" name="ProfileMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:30:11">
+            <style class="default" />
+            <operations>
+              <operation id="o17a0aea8bced4f9f984582a7b8405a5a952" cid="ELEM081" name="ProfileMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pb25b71f7b79e4af5affd21b684b3638d" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="of977e5a76c914c89a2a992bd64a10f59109" cid="ELEM080" name="run" type="void" type-id="void" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="o5b79c38582e74fc9a6db2050aab9cc76480" cid="ELEM082" name="changePassword" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p053742e254ed4aeca23bcd1e6a972694" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oe7c6f9c207474346871dbf454de81b58546" cid="ELEM083" name="changeNickname" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="peeec8f2dcc7c4817bb8ef493b45d10d1" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di139897506965106718" cid="GNR007" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:14:40" from="di951537852165390935" to="di179946581453706152">
+            <style class="default" />
+          </item>
+          <item id="di205409967604528526" cid="C017" type="class" name="DuelMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:29:10">
+            <style class="default" />
+            <operations>
+              <operation id="o58d71049e2b246d798ef4ad3a94b6a35114" cid="ELEM097" name="DuelMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p6a7df98abf3341bdad8eb48505979c42" name="opponent" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="o60acd4e4de634ce58cfabeccc2b551c4360" cid="ELEM102" name="run" type="viod" type-id="viod" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="oc656ded63cbf4320ba61427a9de08ceb608" cid="ELEM098" name="newDuelWithPlayer" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p5e8515869b7f4bf2bb41ddd9d88faea2" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o51d20625c9004d0f8acd208b70428208424" cid="ELEM099" name="newDuelWithAI" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8638ef0d68504fb3ae231611a1d42757" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di400589690845051517" cid="C018" type="class" name="DeckMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:29:22">
+            <style class="default" />
+            <operations>
+              <operation id="oce8e620f7bf74c4688acc1bd09c9a9e5411" cid="ELEM084" name="DeckMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o07c674c7df4b43b6a0521f6a77e87d48455" cid="ELEM085" name="run" type="void" type-id="void" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="of9b9df75b8b44ddb902266d7b384db5a129" cid="ELEM086" name="createDeck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p82532c9e189f418a81261e17ef5eaf3f" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o46b1faa517fd4556b4085dfda73b520c540" cid="ELEM087" name="deleteDeck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p3226c901bda24c20bb3fc2890ad1702e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="ob0d6784dd6da4725afa77bb37a10a532217" cid="ELEM088" name="setActiveDeck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p3853e56f82bf4081b21c04d9b5ee2276" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oaa89c709cf134e54b2452344c0fda596843" cid="ELEM089" name="addCardToDeck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p021a7618b03043a5bcde9ee00c9da11d" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o84059c459ced4f40945e988c5e2ff89f466" cid="ELEM090" name="removeCardFromDeck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p4dbff020863e46a28d4b1501c98089f5" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o3cf172e546af4719bf47949dd53d11f5148" cid="ELEM091" name="showAllDecks" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd023f12a2fe84be889238935d3fb5287" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="ob0e3c112c9bb406090dfb845d34e8b17124" cid="ELEM092" name="showDeck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pf4f0b2909a6f4aa6826ea66d96cd8e2e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oc57b2e5fbbf3483a81a19850b71e9663681" cid="ELEM093" name="showCards" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p2ab6d6a13cdf47d4a30cb5134e52dd9e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di516136665217016462" cid="C019" type="class" name="ScoreboardMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:29:40">
+            <style class="default" />
+            <operations>
+              <operation id="o6c7cfd3c756b4a428d5c67f99a0264fe115" cid="ELEM078" name="run" type="void" type-id="void" visibility="public">
+                <style class="default" />
+              </operation>
+            </operations>
+          </item>
+          <item id="di402834914995090540" cid="C017" type="class" name="DuelMenuView" style-class="" owner="di309552542530155027" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:29:10">
+            <style class="default" />
+            <operations>
+              <operation id="oc656ded63cbf4320ba61427a9de08ceb608" cid="ELEM098" name="newDuelWithPlayer" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p5e8515869b7f4bf2bb41ddd9d88faea2" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o51d20625c9004d0f8acd208b70428208424" cid="ELEM099" name="newDuelWithAI" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8638ef0d68504fb3ae231611a1d42757" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o12c39530a1b04b75ac6422c205a506b2252" cid="ELEM131" name="newDuelWithPlayerErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd2c43adfb2334f8389f0d1c720385b58" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oab78f362cad54124862299e4ddb51738355" cid="ELEM132" name="newDuelWithAIErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd074077bb6d144c8bafe20ed9d69e976" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di440962770407759238" cid="GNR008" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:14:55" from="di400589690845051517" to="di951537852165390935">
+            <style class="default" />
+          </item>
+          <item id="di398723812559302523" cid="GNR009" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:15:02" from="di872862577787753824" to="di951537852165390935">
+            <style class="default" />
+          </item>
+          <item id="di106988482975184650" cid="GNR010" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:15:18" from="di205409967604528526" to="di951537852165390935">
+            <style class="default" />
+          </item>
+          <item id="di987284435106568364" cid="GNR011" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:15:23" from="di142824740195623320" to="di951537852165390935">
+            <style class="default" />
+          </item>
+          <item id="di729084101791992726" cid="GNR012" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:15:28" from="di516136665217016462" to="di951537852165390935">
+            <style class="default" />
+          </item>
+          <item id="di448278401449162641" cid="GNR013" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:15:36" from="di262976614163826235" to="di951537852165390935">
+            <style class="default" />
+          </item>
+          <item id="di258383755120699772" cid="C022" type="class" name="LoginMenuController" style-class="" owner="di309552542530155027" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:17:32">
+            <style class="default" />
+            <operations>
+              <operation id="ocbb16ab5e10348c8a436c350e0649bdd302" cid="ELEM103" name="registerErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8f2d5c11a1a34da2bae05160892729b3" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o2fbcbeda29ea42f89914d1211a881b6445" cid="ELEM104" name="loginErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pbb1b501a673d4bc48462976ac58eebfd" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o114e657c0406421ebc8e5b6fd0210633125" cid="ELEM105" name="register" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p5ed082473744463c895e0cbd25f6aff6" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oc2de519dd7e346dfa9baa32d2ec323d8505" cid="ELEM106" name="login" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p44109b3b77244934a31db491941716df" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di489749654526648160" cid="C023" type="class" name="MainMenuController" style-class="" owner="di309552542530155027" visibility="package" change-tracking-state="added" creation-date="04/16/2021 23:28:04">
+            <style class="default" />
+            <operations>
+              <operation id="o70babc0efce9408aa67bd0d4f9dba37f371" cid="ELEM107" name="logout" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p8b091a18c5ca4bcf8b891f4c0ca85cf1" name="matcher" type="Matcher" type-id="Matcher" />
+                  <parameter id="pfc180cd60c2446cc8e4fcec7f0ff7b40" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="od11306bc789a4161a3ea49184de2f914651" cid="ELEM109" name="exitMenu" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p5c3e29c9242045c68752b3b2abe1e731" name="matcher" type="Matcher" type-id="Matcher" />
+                  <parameter id="p6e1d433c97eb458aa5121ecebc37c2b0" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="o5b00a531ff54490eb39b339b9396858975" cid="ELEM110" name="enterMenu" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p562ec60283074c479ba7aaf0b9df985d" name="matcher" type="Matcher" type-id="Matcher" />
+                  <parameter id="pfd9b9454d2af496fb2626a90b3aebd92" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="o77929f2eec394fbcb90daaa13818cb03623" cid="ELEM108" name="logoutErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pbb94153352774c9683aea806f83d0648" name="matcher" type="Matcher" type-id="Matcher" />
+                  <parameter id="pcd7fd8c0b06445eb8b4133a4449ae252" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="o767d8a07ba6e41e897cf1c004c43319b111" cid="ELEM111" name="exitMenuErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pbbec5c9dd716495799190bf662c13c91" name="matcher" type="Matcher" type-id="Matcher" />
+                  <parameter id="p30e883d248874698a0e86151d86878d7" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="oa06e452421f04ac081e1716a3ce3a3ea65" cid="ELEM112" name="enterMenuErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p298bbee96113410f89d9d36e0a48e52d" name="matcher" type="Matcher" type-id="Matcher" />
+                  <parameter id="p45d33cf734ea41fabf7ea3b34a1ad7ea" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di970672403398548553" cid="C011" type="class" name="MainMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:17:26">
+            <style class="default" />
+            <attributes>
+              <attribute id="a914892103c234b8694d6b4f4aa9dba64829" cid="ELEM067" name="player" type="Player" type-id="Class:di693270977999568292" visibility="private">
+                <style class="default" />
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="o0bf23cff08e54c14bb4add99f02af01274" cid="ELEM077" name="MainMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p2370dfaae069460fa959d64856280541" name="player" type="Player" type-id="Class:di693270977999568292" />
+                </parameters>
+              </operation>
+              <operation id="o6370b7f5267d46cdab8caaa7eb2105dd515" cid="ELEM073" name="run" type="void" type-id="void" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="ofc57258fc6da4808ab83616ec6871205791" cid="ELEM074" name="logout" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p4584baadabeb43c5a8540cc0231f6a1d" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o76447f4b3e9a4224b6500ee8b32edb2f795" cid="ELEM075" name="enterMenu" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pe13e5c701c2d4b09a254b638c7ec9e67" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="od8266fa27e8a494b8d03d5f3baa3cf0d102" cid="ELEM076" name="exitMenu" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pfbc980f68a214588b9969f4aebf1b0cb" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di362490020211220773" cid="C018" type="class" name="DeckMenuController" style-class="" owner="di309552542530155027" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:29:22">
+            <style class="default" />
+            <operations>
+              <operation id="of9b9df75b8b44ddb902266d7b384db5a129" cid="ELEM086" name="createDeck" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p82532c9e189f418a81261e17ef5eaf3f" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o46b1faa517fd4556b4085dfda73b520c540" cid="ELEM087" name="deleteDeck" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p3226c901bda24c20bb3fc2890ad1702e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="ob0d6784dd6da4725afa77bb37a10a532217" cid="ELEM088" name="setActiveDeck" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p3853e56f82bf4081b21c04d9b5ee2276" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oaa89c709cf134e54b2452344c0fda596843" cid="ELEM089" name="addCardToDeck" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p021a7618b03043a5bcde9ee00c9da11d" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o84059c459ced4f40945e988c5e2ff89f466" cid="ELEM090" name="removeCardFromDeck" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p4dbff020863e46a28d4b1501c98089f5" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o3cf172e546af4719bf47949dd53d11f5148" cid="ELEM091" name="showAllDecks" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd023f12a2fe84be889238935d3fb5287" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="ob0e3c112c9bb406090dfb845d34e8b17124" cid="ELEM092" name="showDeck" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pf4f0b2909a6f4aa6826ea66d96cd8e2e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oc57b2e5fbbf3483a81a19850b71e9663681" cid="ELEM093" name="showCards" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p2ab6d6a13cdf47d4a30cb5134e52dd9e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o14b20e1c9e1042f09e315125c57b601415" cid="ELEM114" name="createDeckErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p54f08153f9c242b0bc6f6727f828484e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="ofd2f548e76554f9ba42f3a8171bec5d1286" cid="ELEM115" name="deleteDeckErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p9a634a84dac5465b87ca59c2924221aa" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o3325a18c3ed2446b8bf0760d68d9872f852" cid="ELEM116" name="setActiveDeckErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p6cbfb6504f45453dbb0be55127f7a06d" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o367b8a56b87646c9bada0432aa49c804200" cid="ELEM117" name="addCardToDeckErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p445b3962e52143979d9a9b248427cb5b" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o5b23add91fe44a18b3780ed6492a87d2352" cid="ELEM118" name="removeCardFromDeckErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p2db200ce98d9443a9da8061b63f4f00e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o4f49911efc0a4142ac78fec01a332a5e631" cid="ELEM119" name="showAllDecksErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pedc067a17f004f48a937eb81b071979b" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o0cfce3c602eb4021ab7bc54b1784247e543" cid="ELEM120" name="showDeckErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pb8cf2f66754d4a74bb0dd7026fed40e0" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o2fe31e0faac64c5e83e5c2b9d2400ab6229" cid="ELEM121" name="showCardsErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p20f25dff3ca5405998abe3a01c5f3c65" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oc23c7c1e69c84468bf35857a53246f98768" cid="ELEM122" name="passwordRegexCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa6020ee2766d435fa411b83ad8e65e98" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di658389520313348890" cid="C012" type="class" name="ShopMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:17:42">
+            <style class="default" />
+            <operations>
+              <operation id="o7451b419a1094c618fa699c073850cf8393" cid="ELEM094" name="ShopMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o4a3c854ecdec46d5bbd3cb16f9e51f6e619" cid="ELEM101" name="run" type="void" type-id="void" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="oe848195b39234ea5a4af84abd76f7a63400" cid="ELEM095" name="buyCard" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa733d5c10dde4aaaa7a4f1289067899e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o685db678f88e4f03b32d6188d8042541792" cid="ELEM096" name="showShopCards" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd37bb8f1370b4e9d9a4e3534da65e54a" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di210691971611467875" cid="C012" type="class" name="ShopMenuView" style-class="" owner="di296538154323321975" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:17:42">
+            <style class="default" />
+            <operations>
+              <operation id="o7451b419a1094c618fa699c073850cf8393" cid="ELEM094" name="ShopMenuView" type="&lt;&lt;constructor&gt;&gt;" type-id="&lt;&lt;constructor&gt;&gt;" visibility="public">
+                <style class="default" />
+              </operation>
+              <operation id="o4a3c854ecdec46d5bbd3cb16f9e51f6e619" cid="ELEM101" name="run" type="void" type-id="void" visibility="private">
+                <style class="default" />
+              </operation>
+              <operation id="oe848195b39234ea5a4af84abd76f7a63400" cid="ELEM095" name="buyCard" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa733d5c10dde4aaaa7a4f1289067899e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o685db678f88e4f03b32d6188d8042541792" cid="ELEM096" name="showShopCards" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd37bb8f1370b4e9d9a4e3534da65e54a" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di700247299532860150" cid="C012" type="class" name="ShopMenuView" style-class="" owner="di309552542530155027" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:17:42">
+            <style class="default" />
+            <operations>
+              <operation id="oe848195b39234ea5a4af84abd76f7a63400" cid="ELEM095" name="buyCard" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pa733d5c10dde4aaaa7a4f1289067899e" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o685db678f88e4f03b32d6188d8042541792" cid="ELEM096" name="showShopCards" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="pd37bb8f1370b4e9d9a4e3534da65e54a" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o2025b65e17f749e7963cd7b25071e8e671" cid="ELEM123" name="buyCardErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p7ec964478652434983e034fa416334c4" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o67441c9e9d6e42b3830d3cabac88010d57" cid="ELEM124" name="showShopCardsErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p05a2bee0f0a547a8a3e5d76901c4ea91" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di894719795732702792" cid="C020" type="class" name="ProfileMenuView" style-class="" owner="di309552542530155027" visibility="package" change-tracking-state="added" creation-date="04/16/2021 22:30:11">
+            <style class="default" />
+            <operations>
+              <operation id="o5b79c38582e74fc9a6db2050aab9cc76480" cid="ELEM082" name="changePassword" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p053742e254ed4aeca23bcd1e6a972694" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="oe7c6f9c207474346871dbf454de81b58546" cid="ELEM083" name="changeNickname" type="bolean" type-id="bolean" visibility="public">
+                <style class="default" />
+                <parameters>
+                  <parameter id="peeec8f2dcc7c4817bb8ef493b45d10d1" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="occ64125d7d014d78b11e7969c0f4c5c2105" cid="ELEM133" name="changePasswordErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p6cdb5ecd697a4630be6a24965b4f69f5" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+              <operation id="o0c9cf8aa5dd740ccbdd701a0e477d5bb428" cid="ELEM134" name="changeNicknameErrorCheck" type="bolean" type-id="bolean" visibility="private">
+                <style class="default" />
+                <parameters>
+                  <parameter id="p6b284c509d424ab5ae0cd8efc986aeec" name="matcher" type="Matcher" type-id="Matcher" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
         </abstract-items>
         <layer name="Default" visible="true" enabled="true" locked="false">
           <item id="di296538154323321975" iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/13/2021 18:50:51" order-index="1" type="entity">
-            <layout ax="32.5" ay="-481" awidth="1136" aheight="620" x="32.5" y="-481" width="1136" height="620" />
+            <layout ax="27.5" ay="-424" awidth="1824" aheight="1182" x="27.5" y="-424" width="1824" height="1182" />
           </item>
           <item id="di309552542530155027" iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/13/2021 18:51:09" order-index="2" type="entity">
-            <layout ax="129" ay="1467.5" awidth="1136" aheight="453.5" x="129" y="1467.5" width="1136" height="453.5" />
+            <layout ax="119" ay="855.5" awidth="2167" aheight="1182" x="119" y="855.5" width="2167" height="1182" />
           </item>
           <item id="di660868823390701852" iid="b508a7c6d6844bc8805126d083d3ac4a" creation-date="04/13/2021 18:49:52" order-index="0" type="entity">
-            <layout ax="9" ay="269" awidth="1616" aheight="1147" x="9" y="269" width="1616" height="1147" />
+            <layout ax="2382" ay="846" awidth="1616" aheight="1147" x="2382" y="846" width="1616" height="1147" />
           </item>
           <item id="di742672930698945631" iid="035f8db31df744649849c64c49ec45d6" container="di660868823390701852" container-iid="b508a7c6d6844bc8805126d083d3ac4a" creation-date="04/13/2021 19:08:04" order-index="11" type="entity">
-            <layout ax="41" ay="329" awidth="1564" aheight="1042" x="41" y="329" width="1564" height="1042" />
+            <layout ax="2414" ay="906" awidth="1564" aheight="1042" x="2414" y="906" width="1564" height="1042" />
           </item>
           <item id="di143988441691838737" iid="150a4650d015420fb48800e91c930a23" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:01:42" order-index="3" type="entity">
-            <layout ax="52" ay="381" awidth="532" aheight="565" x="52" y="381" width="532" height="565" />
+            <layout ax="2425" ay="958" awidth="532" aheight="565" x="2425" y="958" width="532" height="565" />
             <class />
           </item>
           <item id="di287578495294601032" iid="09d3b23f06084c598eaa02217128cd33" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:02:08" order-index="4" type="entity">
-            <layout ax="419" ay="1005" awidth="238" aheight="160" x="419" y="1005" width="238" height="160" />
+            <layout ax="2792" ay="1582" awidth="238" aheight="160" x="2792" y="1582" width="238" height="160" />
             <class />
           </item>
           <item id="di110257403708257899" iid="f4b386ab5ba94a3abb3a5ecc5000e358" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:06:21" order-index="8" type="entity">
-            <layout ax="625.5" ay="393.5" awidth="448.5" aheight="334" x="625.5" y="393.5" width="448.5" height="334" />
+            <layout ax="2998.5" ay="970.5" awidth="448.5" aheight="334" x="2998.5" y="970.5" width="448.5" height="334" />
             <class />
           </item>
           <item id="di305649417975031529" iid="2217f3616fc54dc6abcdf59ce47219db" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:02:36" order-index="5" type="entity">
-            <layout ax="66" ay="1005" awidth="238" aheight="160" x="66" y="1005" width="238" height="160" />
+            <layout ax="2439" ay="1582" awidth="238" aheight="160" x="2439" y="1582" width="238" height="160" />
             <class />
           </item>
           <item id="di666882724268734645" iid="39c0b90128f04d87aaded7bcc7be9460" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:06:29" order-index="9" type="entity">
-            <layout ax="1115" ay="1079" awidth="140" aheight="160" x="1115" y="1079" width="140" height="160" />
+            <layout ax="3488" ay="1656" awidth="140" aheight="160" x="3488" y="1656" width="140" height="160" />
             <class />
           </item>
           <item id="di467724075611593850" iid="d20877dae1374753a646d662bd2f9f27" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:06:37" order-index="10" type="entity">
-            <layout ax="1306" ay="1079" awidth="140" aheight="160" x="1306" y="1079" width="140" height="160" />
+            <layout ax="3679" ay="1656" awidth="140" aheight="160" x="3679" y="1656" width="140" height="160" />
             <class />
           </item>
           <item id="di928604899123002734" iid="1372376e63294327ad632a194453bd24" container="di660868823390701852" container-iid="b508a7c6d6844bc8805126d083d3ac4a" creation-date="04/13/2021 19:11:12" order-index="12" type="entity">
-            <layout ax="42.5" ay="1284" awidth="313" aheight="75" x="42.5" y="1284" width="313" height="75" />
+            <layout ax="2415.5" ay="1861" awidth="313" aheight="75" x="2415.5" y="1861" width="313" height="75" />
             <class />
           </item>
           <item id="di693270977999568292" iid="20fc1bc718054fd88b5fe584e1187a38" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:11:27" order-index="13" type="entity">
-            <layout ax="749.5" ay="1272" awidth="393" aheight="99" x="749.5" y="1272" width="393" height="99" />
+            <layout ax="3122.5" ay="1849" awidth="393" aheight="99" x="3122.5" y="1849" width="393" height="99" />
             <class />
           </item>
           <item id="di879158509432575405" iid="bdbe8ebcde1d4a8fa1114491c7e7ddb7" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:42:28" order-index="14" type="entity">
-            <layout ax="921.5" ay="1091.5" awidth="140" aheight="160" x="921.5" y="1091.5" width="140" height="160" />
+            <layout ax="3294.5" ay="1668.5" awidth="140" aheight="160" x="3294.5" y="1668.5" width="140" height="160" />
             <enumeration />
           </item>
           <item id="di465377135629182080" iid="585ebc97d7c84a30b1d5124053af6321" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:42:59" order-index="15" type="entity">
-            <layout ax="737" ay="1091.5" awidth="160" aheight="160" x="737" y="1091.5" width="160" height="160" />
+            <layout ax="3110" ay="1668.5" awidth="160" aheight="160" x="3110" y="1668.5" width="160" height="160" />
             <enumeration />
           </item>
           <item id="di162347247687043002" iid="473a5200c5424b86a5d9a4d1f256e49b" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/13/2021 19:43:20" order-index="16" type="entity">
-            <layout ax="923" ay="919" awidth="151" aheight="160" x="923" y="919" width="151" height="160" />
+            <layout ax="3296" ay="1496" awidth="151" aheight="160" x="3296" y="1496" width="151" height="160" />
             <enumeration />
           </item>
           <item id="di379618398782868584" iid="63d23101b0f747cb92fbc3443133cdad" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/14/2021 17:02:35" order-index="17" type="entity">
-            <layout ax="737" ay="923.75" awidth="160" aheight="150.5" x="737" y="923.75" width="160" height="150.5" />
+            <layout ax="3110" ay="1500.75" awidth="160" aheight="150.5" x="3110" y="1500.75" width="160" height="150.5" />
             <enumeration />
           </item>
           <item id="di690996540702551041" iid="d1395bb10ea743c4ac8c0c89e5191fed" container="di742672930698945631" container-iid="035f8db31df744649849c64c49ec45d6" creation-date="04/14/2021 21:18:22" order-index="18" type="entity">
-            <layout ax="468" ay="1183" awidth="140" aheight="160" x="468" y="1183" width="140" height="160" />
+            <layout ax="2841" ay="1760" awidth="140" aheight="160" x="2841" y="1760" width="140" height="160" />
             <enumeration />
+          </item>
+          <item id="di951537852165390935" iid="9df2dfcfa5864e8dba972d328d158161" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:17:26" order-index="19" type="entity">
+            <layout ax="713.5" ay="9" awidth="355" aheight="189" x="713.5" y="9" width="355" height="189" />
+            <class />
+          </item>
+          <item id="di872862577787753824" iid="0586eb4b855941098c3dce9ac90fb45c" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:17:42" order-index="20" type="entity">
+            <layout ax="357.25" ay="296" awidth="277.5" aheight="334" x="357.25" y="296" width="277.5" height="334" />
+            <class />
+          </item>
+          <item id="di205409967604528526" iid="a240e1b78ff441878e56e8cb5351d791" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:29:10" order-index="23" type="entity">
+            <layout ax="858" ay="485" awidth="238" aheight="223" x="858" y="485" width="238" height="223" />
+            <class />
+          </item>
+          <item id="di400589690845051517" iid="66d74d77277443bda18f6b4656b4b6da" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:29:22" order-index="24" type="entity">
+            <layout ax="36" ay="307.5" awidth="316" aheight="291" x="36" y="307.5" width="316" height="291" />
+            <class />
+          </item>
+          <item id="di516136665217016462" iid="5b464e18fadb446ba5df8395b37fb186" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:29:40" order-index="25" type="entity">
+            <layout ax="1512" ay="425.5" awidth="178" aheight="75" x="1512" y="425.5" width="178" height="75" />
+            <class />
+          </item>
+          <item id="di142824740195623320" iid="7f7f3ae01b4d4dc9a7988148e18b265a" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:30:11" order-index="26" type="entity">
+            <layout ax="1137" ay="373" awidth="344" aheight="160" x="1137" y="373" width="344" height="160" />
+            <class />
+          </item>
+          <item id="di179946581453706152" iid="4cc073de94e246759f0de581f17c2c78" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:20:15" order-index="22" type="entity">
+            <layout ax="811" ay="-299.5" awidth="160" aheight="189" x="811" y="-299.5" width="160" height="189" />
+            <class />
+          </item>
+          <item id="di139897506965106718" iid="536870f3f863462197ede4cd5c18e011" creation-date="04/16/2021 23:14:40" order-index="28" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="876" y1="9" x2="891" y2="-110" start-border-pos="0.114084507042254" end-border-pos="0.625" name-position="0,0">
+              <points>
+                <point x="876" y="9" />
+                <point x="891" y="-110" />
+              </points>
+            </layout>
+            <relation from="di951537852165390935" from-iid="9df2dfcfa5864e8dba972d328d158161" to="di179946581453706152" to-iid="4cc073de94e246759f0de581f17c2c78" />
+          </item>
+          <item id="di440962770407759238" iid="ebed2da4facf44e2bf4b1634fd14bb07" creation-date="04/16/2021 23:14:55" order-index="29" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" auto-path="" x1="208" y1="308" x2="714" y2="157" start-border-pos="0.136075949367089" end-border-pos="0.804013953637824" name-position="0,0">
+              <points>
+                <point x="208" y="308" />
+                <point x="714" y="157" />
+              </points>
+            </layout>
+            <relation from="di400589690845051517" from-iid="66d74d77277443bda18f6b4656b4b6da" to="di951537852165390935" to-iid="9df2dfcfa5864e8dba972d328d158161" />
+          </item>
+          <item id="di398723812559302523" iid="7578793e37ec4007aea570f93ec9011f" creation-date="04/16/2021 23:15:02" order-index="30" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" auto-path="" x1="553" y1="296" x2="726" y2="198" start-border-pos="0.176351351351351" end-border-pos="0.741534638740647" name-position="0,0">
+              <points>
+                <point x="553" y="296" />
+                <point x="726" y="198" />
+              </points>
+            </layout>
+            <relation from="di872862577787753824" from-iid="0586eb4b855941098c3dce9ac90fb45c" to="di951537852165390935" to-iid="9df2dfcfa5864e8dba972d328d158161" />
+          </item>
+          <item id="di106988482975184650" iid="8e8e5e1a6dd64f33abc47dc7c9adaa4b" creation-date="04/16/2021 23:15:18" order-index="31" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" auto-path="" x1="916" y1="485" x2="897" y2="198" start-border-pos="0.0609243697478992" end-border-pos="0.620656360035211" name-position="0,0">
+              <points>
+                <point x="916" y="485" />
+                <point x="897" y="198" />
+              </points>
+            </layout>
+            <relation from="di205409967604528526" from-iid="a240e1b78ff441878e56e8cb5351d791" to="di951537852165390935" to-iid="9df2dfcfa5864e8dba972d328d158161" />
+          </item>
+          <item id="di987284435106568364" iid="81f5a3cc680240a49ba3731cbe0739c2" creation-date="04/16/2021 23:15:23" order-index="32" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1330" y1="373" x2="984" y2="198" start-border-pos="0.140261627906977" end-border-pos="0.559859154929577" name-position="0,0">
+              <points>
+                <point x="1330" y="373" />
+                <point x="984" y="198" />
+              </points>
+            </layout>
+            <relation from="di142824740195623320" from-iid="7f7f3ae01b4d4dc9a7988148e18b265a" to="di951537852165390935" to-iid="9df2dfcfa5864e8dba972d328d158161" />
+          </item>
+          <item id="di729084101791992726" iid="47c262fdd9ce43358e1d5da16f891466" creation-date="04/16/2021 23:15:28" order-index="33" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1631" y1="426" x2="1068" y2="173" start-border-pos="0.167134831460674" end-border-pos="0.466931216931217" name-position="0,0">
+              <points>
+                <point x="1631" y="426" />
+                <point x="1068" y="173" />
+              </points>
+            </layout>
+            <relation from="di516136665217016462" from-iid="5b464e18fadb446ba5df8395b37fb186" to="di951537852165390935" to-iid="9df2dfcfa5864e8dba972d328d158161" />
+          </item>
+          <item id="di448278401449162641" iid="49e87452f0414354aebdfd9ee7547787" creation-date="04/16/2021 23:15:36" order-index="34" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" auto-path="" x1="741" y1="475" x2="853" y2="198" start-border-pos="0.125" end-border-pos="0.651764345840669" name-position="0,0">
+              <points>
+                <point x="741" y="475" />
+                <point x="853" y="198" />
+              </points>
+            </layout>
+            <relation from="di262976614163826235" from-iid="df28266f70334904bbd0d31bb544f9a7" to="di951537852165390935" to-iid="9df2dfcfa5864e8dba972d328d158161" />
+          </item>
+          <item id="di258383755120699772" iid="cf8c407e0fb148a086667b62e7aad60d" container="di309552542530155027" container-iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/16/2021 23:17:32" order-index="35" type="entity">
+            <layout ax="243" ay="954" awidth="238" aheight="218" x="243" y="954" width="238" height="218" />
+            <class />
+          </item>
+          <item id="di489749654526648160" iid="1bc2eb74b2574c20aaa9545fef9e52f0" container="di309552542530155027" container-iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/16/2021 23:28:04" order-index="36" type="entity">
+            <layout ax="532" ay="953" awidth="375" aheight="238" x="532" y="953" width="375" height="238" />
+            <class />
+          </item>
+          <item id="di970672403398548553" iid="a4a06b5ab1e2459baaa866e24f1dc215" creation-date="04/16/2021 22:17:26" order-index="19" type="entity">
+            <layout ax="713.5" ay="9" awidth="355" aheight="189" x="713.5" y="9" width="355" height="189" />
+            <class />
+          </item>
+          <item id="di362490020211220773" iid="2b75686503c144ccaead2acf0d72a7ff" container="di309552542530155027" container-iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/16/2021 22:29:22" order-index="24" type="entity">
+            <layout ax="218" ay="1207.75" awidth="387" aheight="477.5" x="218" y="1207.75" width="387" height="477.5" />
+            <class />
+          </item>
+          <item id="di658389520313348890" iid="e6b3f316c0c84fea994eefa23585b69d" creation-date="04/16/2021 22:17:42" order-index="20" type="entity">
+            <layout ax="357.25" ay="296" awidth="277.5" aheight="334" x="357.25" y="296" width="277.5" height="334" />
+            <class />
+          </item>
+          <item id="di210691971611467875" iid="604983c192da44358cc6de9bcf946400" creation-date="04/16/2021 22:17:42" order-index="20" type="entity">
+            <layout ax="357.25" ay="296" awidth="277.5" aheight="334" x="357.25" y="296" width="277.5" height="334" />
+            <class />
+          </item>
+          <item id="di700247299532860150" iid="77ce8478f38b4926a9a578396433dcbc" container="di309552542530155027" container-iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/16/2021 22:17:42" order-index="20" type="entity">
+            <layout ax="690.25" ay="1256" awidth="277.5" aheight="334" x="690.25" y="1256" width="277.5" height="334" />
+            <class />
+          </item>
+          <item id="di262976614163826235" iid="df28266f70334904bbd0d31bb544f9a7" container="di296538154323321975" container-iid="d197edba80674d69ae0099fea24bbc8b" creation-date="04/16/2021 22:30:53" order-index="27" type="entity">
+            <layout ax="640" ay="475" awidth="202" aheight="223" x="640" y="475" width="202" height="223" />
+            <class />
+          </item>
+          <item id="di827752758166456416" iid="a23f24be39ca48b1b83cacaa10d0ea80" container="di309552542530155027" container-iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/16/2021 22:30:53" order-index="27" type="entity">
+            <layout ax="931" ay="953" awidth="380" aheight="220" x="931" y="953" width="380" height="220" />
+            <class />
+          </item>
+          <item id="di402834914995090540" iid="116be8d9a4b34ac68e16498ee8d407cc" container="di309552542530155027" container-iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/16/2021 22:29:10" order-index="23" type="entity">
+            <layout ax="1351" ay="960.5" awidth="238" aheight="223" x="1351" y="960.5" width="238" height="223" />
+            <class />
+          </item>
+          <item id="di894719795732702792" iid="f89752d61614431e94684d2583dc29c8" container="di309552542530155027" container-iid="acfe6a1240af439eb491a0ce9ada19ec" creation-date="04/16/2021 22:30:11" order-index="26" type="entity">
+            <layout ax="1010" ay="1283" awidth="344" aheight="160" x="1010" y="1283" width="344" height="160" />
+            <class />
           </item>
         </layer>
       </diagram>
