@@ -1,4 +1,5 @@
 package Model.Cards;
 
-public class Magic {
+public class Magic extends Card {
+
 }
