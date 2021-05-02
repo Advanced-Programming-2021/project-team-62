@@ -1,4 +1,5 @@
 package Model.Cards;
 
-public class Monster {
+public class Monster extends Card{
+
 }
