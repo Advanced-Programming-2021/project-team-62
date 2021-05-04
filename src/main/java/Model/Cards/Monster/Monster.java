@@ -1,6 +1,8 @@
-package Model.Cards;
+package Model.Cards.Monster;
 
-public class Monster extends Card{
+import Model.Cards.Card;
+
+public class Monster extends Card {
 
     public Monster(String name, String description, String type, String cardNumber, String cardType) {
         super(name, description, type, cardNumber, cardType);

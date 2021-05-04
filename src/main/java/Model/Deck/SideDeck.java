@@ -1,7 +1,7 @@
 package Model.Deck;
 
-import Model.Cards.Magic;
-import Model.Cards.Monster;
+import Model.Cards.Magic.Magic;
+import Model.Cards.Monster.Monster;
 
 import java.util.ArrayList;
 

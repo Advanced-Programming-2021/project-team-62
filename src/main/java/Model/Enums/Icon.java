@@ -1,4 +1,4 @@
-package Model.Cards;
+package Model.Enums;
 
 public enum Icon {
     NORMAL,
@@ -7,5 +7,5 @@ public enum Icon {
     QUICKPLAY,
     RITUAL,
     CONTINUOUS,
-    COUNTER;
+    COUNTER
 }
