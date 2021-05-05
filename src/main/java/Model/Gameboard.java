@@ -1,12 +1,12 @@
 package Model;
 
-import Model.Cards.Magic;
-import Model.Cards.Monster;
+import Model.Cards.Magic.Magic;
+import Model.Cards.Monster.Monster;
 import Model.Deck.Deck;
 
 import java.util.ArrayList;
 
-public class Gameboard {
+public class GameBoard {
     private Player playerOne;
     private Player playerTwo;
     private Deck playerOneDeck;
@@ -20,7 +20,7 @@ public class Gameboard {
     private ArrayList<Monster> playerOneMonsters = new ArrayList<>();
     private ArrayList<Monster> playerTwoMonsters = new ArrayList<>();
 
-    public Gameboard(Player playerOne, Player playerTwo) {
+    public GameBoard(Player playerOne, Player playerTwo) {
         this.playerOne = playerOne;
         this.playerTwo = playerTwo;
     }

@@ -1,7 +1,7 @@
 package Model;
 
-import Model.Cards.Magic;
-import Model.Cards.Monster;
+import Model.Cards.Magic.Magic;
+import Model.Cards.Monster.Monster;
 import Model.Deck.Deck;
 
 import java.util.ArrayList;
@@ -19,6 +19,7 @@ public class Player {
     private ArrayList<Monster> monsters = new ArrayList<>();
     private ArrayList<Deck> decks = new ArrayList<>();
     private ArrayList<Player> allPlayers = new ArrayList<>();
+
     public Player(String username, String password, String nickname) {
         this.username = username;
         this.password = password;
