@@ -5,11 +5,11 @@ public class Card {
     public String name, description, type, cardNumber, cardType;
 
     public Card(String name, String description, String type, String cardNumber, String cardType) {
-        setName(name);
-        setDescription(description);
-        setType(type);
-        setCardNumber(cardNumber);
-        setCardType(cardType);
+        this.setName(name);
+        this.setDescription(description);
+        this.setType(type);
+        this.setCardNumber(cardNumber);
+        this.setCardType(cardType);
     }
 
     public void setName(String name) {
