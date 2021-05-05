@@ -1,4 +1,7 @@
-package Model.Cards;
+package Model.Cards.Magic;
+
+import Model.Cards.Card;
+import Model.Enums.Icon;
 
 public class Magic extends Card {
     public Icon icon;
