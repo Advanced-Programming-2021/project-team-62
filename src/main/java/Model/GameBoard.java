@@ -23,7 +23,6 @@ public class GameBoard {
     public GameBoard(Player playerOne, Player playerTwo) {
         this.playerOne = playerOne;
         this.playerTwo = playerTwo;
-        System.out.println("salam");
     }
 
     public void setPlayerOne(Player playerOne) {
