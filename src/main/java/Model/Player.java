@@ -18,13 +18,13 @@ public class Player {
     private ArrayList<Magic> magics = new ArrayList<>();
     private ArrayList<Monster> monsters = new ArrayList<>();
     private ArrayList<Deck> decks = new ArrayList<>();
-    private ArrayList<Player> allPlayers = new ArrayList<>();
+    private static ArrayList<Player> allPlayers = new ArrayList<>();
 
     public Player(String username, String password, String nickname) {
         this.username = username;
         this.password = password;
         this.nickname = nickname;
-        this.allPlayers.add(this);
+        allPlayers.add(this);
     }
 
     public void setUsername(String username) {
@@ -115,7 +115,7 @@ public class Player {
         return decks;
     }
 
-    public ArrayList<Player> getAllPlayers() {
+    public static ArrayList<Player> getAllPlayers() {
         return allPlayers;
     }
 
