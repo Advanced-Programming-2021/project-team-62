@@ -1,29 +1,25 @@
 package Model.Deck;
 
+import Model.Cards.Card;
 import Model.Cards.Magic.Magic;
 import Model.Cards.Monster.Monster;
 
 import java.util.ArrayList;
 
 public class SideDeck {
-    private ArrayList<Magic> magicCards = new ArrayList<>();
-    public ArrayList<Monster> monsterCards = new ArrayList<>();
+    private ArrayList<Card> cards = new ArrayList<>();
     private int numberOfCards;
 
-    public void setMagicCards(ArrayList<Magic> magicCards) {
-        this.magicCards = magicCards;
+    public ArrayList<Card> getCards() {
+        return cards;
     }
-
-    public ArrayList<Magic> getMagicCards() {
-        return magicCards;
+    public void addCard(Card card){
+        this.cards.add(card);
+        setNumberOfCards(getNumberOfCards()+1);
     }
-
-    public void setMonsterCards(ArrayList<Monster> monsterCards) {
-        this.monsterCards = monsterCards;
-    }
-
-    public ArrayList<Monster> getMonsterCards() {
-        return monsterCards;
+    public void removeCard(Card card){
+        this.cards.remove(card);
+        setNumberOfCards(getNumberOfCards()-1);
     }
 
     public void setNumberOfCards(int numberOfCards) {
@@ -32,5 +28,13 @@ public class SideDeck {
 
     public int getNumberOfCards() {
         return numberOfCards;
+    }
+
+    public int getNumberOfCardByName(String name) {
+        int counter = 0;
+        for (Card card : cards) {
+            if (card.getName().equals(name)) counter++;
+        }
+        return counter;
     }
 }

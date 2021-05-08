@@ -1,5 +1,6 @@
 package Model;
 
+import Model.Cards.Card;
 import Model.Cards.Magic.Magic;
 import Model.Cards.Monster.Monster;
 import Model.Deck.Deck;
@@ -15,8 +16,7 @@ public class Player {
     private int maxHp;
     private int currentHp;
     private Deck activeDeck;
-    private ArrayList<Magic> magics = new ArrayList<>();
-    private ArrayList<Monster> monsters = new ArrayList<>();
+    private ArrayList<Card> cards = new ArrayList<>();
     private ArrayList<Deck> decks = new ArrayList<>();
     private static ArrayList<Player> allPlayers = new ArrayList<>();
 
@@ -91,20 +91,14 @@ public class Player {
         return activeDeck;
     }
 
-    public void setMagics(ArrayList<Magic> magics) {
-        this.magics = magics;
+    public ArrayList<Card> getCards() {
+        return cards;
     }
-
-    public ArrayList<Magic> getMagics() {
-        return magics;
-    }
-
-    public void setMonsters(ArrayList<Monster> monsters) {
-        this.monsters = monsters;
-    }
-
-    public ArrayList<Monster> getMonsters() {
-        return monsters;
+    public boolean isCardAvailable(String name){
+        for (Card card : cards){
+            if (card.getName().equals(name)) return true;
+        }
+        return false;
     }
 
     public void setDecks(ArrayList<Deck> decks) {
@@ -124,15 +118,24 @@ public class Player {
         return null;
     }
 
-    public void addMagic(Magic magic) {
-        this.magics.add(magic);
-    }
-
-    public void addMonster(Monster monster) {
-        this.monsters.add(monster);
+    public void addCard(Card card){
+        this.cards.add(card);
     }
 
     public void addDeck(Deck deck) {
         this.decks.add(deck);
+    }
+
+    public Deck getDeckByName(String name) {
+        for (Deck deck : decks) {
+            if (deck.getName().equals(name)) return deck;
+        }
+        return null;
+    }
+    public Card getCardByName(String name){
+        for (Card card : cards){
+            if (card.getName().equals(name)) return card;
+        }
+        return null;
     }
 }
