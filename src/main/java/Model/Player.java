@@ -113,8 +113,13 @@ public class Player {
         return allPlayers;
     }
 
-    public Player getPlayerByUsername(String username) {
+    public static Player getPlayerByUsername(String username) {
         for (Player player : allPlayers) if (player.username.equals(username)) return player;
+        return null;
+    }
+
+    public static Player getPlayerByNickname(String nickname){
+        for (Player player : allPlayers) if (player.nickname.equals(nickname)) return player;
         return null;
     }
 
