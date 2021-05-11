@@ -37,4 +37,10 @@ public class SideDeck {
         }
         return counter;
     }
+    public Card getCardByName(String cardName){
+        for (Card card : cards){
+            if (card.equals(cardName)) return card;
+        }
+        return null;
+    }
 }

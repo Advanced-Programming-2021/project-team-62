@@ -1,8 +1,9 @@
 package Model.Deck;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
-public class Deck {
+public class Deck  {
     private MainDeck mainDeck = new MainDeck();
     private SideDeck sideDeck = new SideDeck();
     private int numberOfCards;
@@ -47,5 +48,6 @@ public class Deck {
         int counter = sideDeck.getNumberOfCardByName(name) + mainDeck.getNumberOfCardByName(name);
         return counter;
     }
+
 
 }

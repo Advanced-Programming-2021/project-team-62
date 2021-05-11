@@ -3,6 +3,7 @@ package View;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Regex {
     private static ArrayList<String> scoreBoardMeuRegex = new ArrayList<>();
