@@ -10,6 +10,8 @@ public class Regex {
     private static ArrayList<String> deckRegex = new ArrayList<>();
     private static ArrayList<String> loginRegex = new ArrayList<>();
     private static ArrayList<String> registerRegex = new ArrayList<>();
+    private static ArrayList<String> profileRegex = new ArrayList<>();
+    private static ArrayList<String> shopRegex = new ArrayList<>();
 
     static {
         menuRegex.add("menu enter (.+)");
@@ -44,6 +46,8 @@ public class Regex {
         registerRegex.add("user create -p (.+) -u (.+) -n (.+)");
         registerRegex.add("user create -n (.+) -p (.+) -u (.+)");
         registerRegex.add("user create -p (.+) -n (.+) -u (.+)");
+        profileRegex.add("profile change --nickname (.+)");
+        profileRegex.add("profile change --current (.+) --new (.+)");
     }
 
     public static ArrayList<String> getMenuRegex() {
@@ -62,7 +66,15 @@ public class Regex {
         return loginRegex;
     }
 
-    public static ArrayList<String> getRegisterRegex(){
+    public static ArrayList<String> getRegisterRegex() {
         return registerRegex;
+    }
+
+    public static ArrayList<String> getProfileRegex() {
+        return profileRegex;
+    }
+
+    public static ArrayList<String> getShopRegex() {
+        return shopRegex;
     }
 }
