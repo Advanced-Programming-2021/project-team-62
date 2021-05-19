@@ -45,8 +45,11 @@ public class Deck  {
         return sideDeck.getNumberOfCards() + mainDeck.getNumberOfCards();
     }
     public int getNumberOfCardByName(String name){
-        int counter = sideDeck.getNumberOfCardByName(name) + mainDeck.getNumberOfCardByName(name);
-        return counter;
+        return sideDeck.getNumberOfCardByName(name) + mainDeck.getNumberOfCardByName(name);
+    }
+    public boolean isValid(){
+        return this.mainDeck.getNumberOfCards() >= 40;
+
     }
 
 

@@ -13,6 +13,7 @@ public class Regex {
     private static ArrayList<String> registerRegex = new ArrayList<>();
     private static ArrayList<String> profileRegex = new ArrayList<>();
     private static ArrayList<String> shopRegex = new ArrayList<>();
+    private static ArrayList<String> duelRegex = new ArrayList<>();
 
     static {
         menuRegex.add("menu enter (.+)");
@@ -49,6 +50,31 @@ public class Regex {
         registerRegex.add("user create -p (.+) -n (.+) -u (.+)");
         profileRegex.add("profile change --nickname (.+)");
         profileRegex.add("profile change --current (.+) --new (.+)");
+        duelRegex.add("duel --new --second-player (.+) --rounds (\\d+)");
+        duelRegex.add("duel --new --rounds (\\d+) --second-player (.+)");
+        duelRegex.add("duel --rounds (\\d+) --new --second-player (.+)");
+        duelRegex.add("duel --rounds (\\d+) --second-player (.+) --new");
+        duelRegex.add("duel --second-player (.+) --rounds (\\d+) --new");
+        duelRegex.add("duel --second-player (.+) --new --rounds (\\d+)");
+        duelRegex.add("duel -n -s (.+) -r (\\d+)");
+        duelRegex.add("duel -n -r (\\d+) -s (.+)");
+        duelRegex.add("duel -r (\\d+) -n -s (.+)");
+        duelRegex.add("duel -r (\\d+) -s (.+) -n");
+        duelRegex.add("duel -s (.+) -r (\\d+) -n");
+        duelRegex.add("duel -s (.+) -n -r (\\d+)");
+        duelRegex.add("duel --new --ai --rounds (\\d+)");
+        duelRegex.add("duel --new --rounds (\\d+) --ai");
+        duelRegex.add("duel --rounds (\\d+) --new --ai");
+        duelRegex.add("duel --rounds (\\d+) --ai --new");
+        duelRegex.add("duel --ai --rounds (\\d+) --new");
+        duelRegex.add("duel --ai --new --rounds (\\d+)");
+        duelRegex.add("duel -n -a -r (\\d+)");
+        duelRegex.add("duel -n -r (\\d+) -a");
+        duelRegex.add("duel -r (\\d+) -n -a");
+        duelRegex.add("duel -r (\\d+) -a -n");
+        duelRegex.add("duel -a -r (\\d+) -n");
+        duelRegex.add("duel -a -n -r (\\d+)");
+
     }
 
     public static ArrayList<String> getMenuRegex() {
@@ -77,5 +103,9 @@ public class Regex {
 
     public static ArrayList<String> getShopRegex() {
         return shopRegex;
+    }
+
+    public static ArrayList<String> getDuelRegex() {
+        return duelRegex;
     }
 }
