@@ -14,11 +14,8 @@ import java.util.regex.Pattern;
 public class ScoreboardMenuController {
     private String command;
 
-    public ScoreboardMenuController(String command) {
+    public boolean run(String command) {
         this.command = command;
-    }
-
-    public boolean run() {
         ArrayList<String> scoreboardRegex = Regex.getScoreBoardMeuRegex();
         ArrayList<String> menuRegex = Regex.getMenuRegex();
         if (getMatcher(command, scoreboardRegex.get(0)).find()) {

@@ -19,7 +19,7 @@ public class ScoreBoardMenuView {
         while (true) {
             String command = scanner.nextLine();
             command = command.trim();
-            if (!new ScoreboardMenuController(command).run()) break;
+            if (!new ScoreboardMenuController().run(command)) break;
         }
     }
 
